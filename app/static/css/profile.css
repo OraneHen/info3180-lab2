@@ -1,0 +1,78 @@
+
+.profile_header{
+    background-image: radial-gradient(circle, rgb(49, 144, 228) 0%, rgb(29, 84, 166) 100%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+        padding: 10px 0;
+} 
+
+.profile_body{
+    padding-bottom: 5px;
+}
+
+.crop {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.profile_pic {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    margin-left: -80px;
+}
+
+.header {
+    text-align: center;
+    font-size: 27px;
+    color: white;
+    text-shadow: 0px 1px 2px rgb(73, 73, 73);
+}
+
+.font{
+    text-align: center;
+    color: white;
+    text-shadow: 0px 1px 2px rgb(73, 73, 73);
+}
+
+.profile_description{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bio{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.metrics{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.metrics_sub{
+    margin: 0 20px;
+    width: 70px;
+}
+
+.number{
+    text-align:  center;
+    font-weight: bold;
+}
+
+.title{
+    text-align:  center;
+}
+
+.follow_btn{
+    margin: auto;
+    padding: 4px 40px;
+} 

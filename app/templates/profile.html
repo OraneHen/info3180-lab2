@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block main %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/profile.css') }}" />
+<div class="profile_header">
+    <div class="crop">
+        <img class="profile_pic" src="{{ url_for('static', filename='images/qD0P6co.gif') }}" alt="no picture" />
+    </div>
+    <div class="profile_body">
+        <div class="header">{{ name }}</div>
+        <div class="font">{{ username }}</div>
+        <div class="font">{{ location }}</div>
+        <div class="font">{{ date_joined }}</div>
+    </div>
+    
+</div>
+<div class="profile_description">
+    <div class="bio">{{ bio }}</div>
+    <div class="metrics">
+        <div class="metrics_sub"><div class="number">{{ posts }}</div><div class ="title">Posts</div></div>
+        <div class="metrics_sub"><div class="number">{{ followers }}</div><div class ="title">Followers</div></div>
+        <div class="metrics_sub"><div class="number">{{ following }}</div><div class ="title">Following</div></div>
+    </div>
+    <button class="follow_btn btn btn-primary" type="button">Follow</button>
+</div>
+{% endblock %}
